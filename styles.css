@@ -1,0 +1,84 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+  --dark-purple: #462666;
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+
+}
+body {
+  background-color:var(--body-bg-color);
+}
+
+#container {
+width: 550px;
+height: 650px;
+margin: 0 auto;
+}
+
+#perfil {
+  margin: 3em 10.5em;
+}
+
+#perfil .foto {
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 50%;
+  border: solid 2px var(--purple);
+  padding: 3px;
+  margin-top: 10px;
+}
+
+#perfil .insta {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: var(--purple);
+
+  margin: 1em 3.5em;
+}
+
+#links {
+  margin: 2em 6em;
+}
+
+#links :hover {
+  color: var(--body-bg-color);
+  background-color: var(--dark-purple);
+  transition: 0.7s;
+}
+
+
+.link1, .link2, .link3, .link4 {
+  width: 326px;
+  height: 49px;
+  border-radius: 4px;
+  border: solid 2px var(--purple); 
+  padding: 0.5em 8.5em 1em;
+  margin: 0.5em;
+  color: var(--purple);
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+#rede_social {
+  margin: 3em 6.5em;
+  width: 340px;
+  height: 50px;
+}
+
+#rede_social :hover {
+  border: solid 2px var(--purple); 
+  border-radius: 40%;
+  background-color: var(--dark-purple);
+  transition: 0.5s;
+}
+
+.twitter, .twitch, .instagram, .linkdin, .github {
+  margin: 0.4em;
+  padding: 0.75em;
+}
